@@ -7,7 +7,7 @@ import { FeaturedPosts } from '../sections';
 import { Key } from 'react';
 
 
-const Home: NextPage = ({ posts }) => {
+const Home: NextPage = ({ posts }: any) => {
   return (
     <div className="container mx-auto px-10 mb-8">
       <Head>
